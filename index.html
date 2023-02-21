@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Butão do BIG</title>
+</head>
+
+<body>
+    <div class="containerButao">
+        <div class="butãoA" onclick="aberto()">
+            <div class="butaoB"></div>
+        </div>
+    </div>
+    <div class="butaoF"></div>
+    <div class="butaoC"></div>
+    <div class="butaoE"></div>
+    <div class="butaoG"></div>
+
+    <div class="alert_btn">
+        <p>Alert</p>
+    </div>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        /*  */
+
+        .alert_btn {
+            display: none;
+            align-items: center;
+            flex-direction: column-reverse;
+            margin: 17rem auto 0rem;
+            /* inset: 0;
+            margin: auto;
+            position: absolute; */
+        }
+
+        /*  */
+
+        .butãoA {
+            cursor: pointer;
+            width: 100px;
+            height: 120px;
+            background-color: #d15d5e;
+            border-radius: 100px / 50px;
+
+            inset: 0;
+            margin: 100px auto;
+            position: absolute;
+            transition: .2s;
+        }
+
+
+        .butãoA:active {
+            width: 100px;
+            height: 100px;
+            background-color: #d15d5e;
+            border-radius: 100px / 50px;
+
+            inset: 0;
+            margin: 110px auto;
+            position: absolute;
+
+            transition: .2s;
+
+        }
+
+        .butaoB {
+            width: 100px;
+            height: 50px;
+            background-color: #eb7a67;
+            border-radius: 100px / 50px;
+
+        }
+
+        .butaoE {
+            width: 100px;
+            height: 50px;
+            background-color: #d15d5e;
+            border-radius: 100px / 50px;
+            inset: 0;
+            margin: 160px auto;
+            position: absolute;
+
+        }
+
+        .butaoG {
+            width: 100px;
+            height: 60px;
+            background-color: #d15d5e;
+            border-radius: 100px / 50px;
+            inset: 0;
+            margin: 160px auto;
+            position: absolute;
+
+        }
+
+        .butaoF {
+            width: 120px;
+            height: 70px;
+            background-color: #2fa097;
+            border-radius: 100px / 50px;
+            inset: 0;
+            margin: 175px auto;
+            position: absolute;
+
+        }
+
+        .butaoC {
+            width: 120px;
+            height: 60px;
+            background-color: #59bbae;
+            border-radius: 100px / 50px;
+
+            inset: 0;
+            margin: 170px auto;
+            position: absolute;
+
+        }
+    </style>
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
